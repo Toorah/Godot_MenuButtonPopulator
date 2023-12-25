@@ -2,6 +2,8 @@
 
 *Made for Godot 4.2 .NET*
 
+![format-list-text-custom](https://github.com/Toorah/Godot_MenuButtonPopulator/assets/8051137/5c1369d0-ce52-48c8-931f-59a5b4117ba6)
+
 Adds a quick method to populate a MenuButton with Items.
 
 ![MenuPopup_1](https://github.com/Toorah/Godot_MenuButtonPopulator/assets/8051137/6de7eb7f-c468-4103-aabb-254cece6123f)
