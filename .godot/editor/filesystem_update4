@@ -1,0 +1,5 @@
+res://addons/menubuttonpopulator/MenuButtonPopulator.cs
+res://addons/menubuttonpopulator/MenuButtonPopulatorPlugin.cs
+res://addons/menubuttonpopulator/PopupChild.cs
+res://TestScene.tscn
+res://addons/menubuttonpopulator/TestScene.tscn
