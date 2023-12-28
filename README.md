@@ -36,8 +36,28 @@ Inherits from *Node*
 ![MenuPopup_2](https://github.com/Toorah/Godot_MenuButtonPopulator/assets/8051137/1f845159-b231-467a-a31a-957b00b5826e)
 
 
+# How to Use
+
+- Add a *MenuButton* Node to the Scene. Add the *MenuButtonPopulator.cs* Script to the *MenuButton* Node
+
+OR
+
+- Add the *MenuButtonPopulator* Node directly, from the *Create New Node* Menu
+
+## Adding Items
+- Add *PopupChild* Nodes under the MenuButtonPopulator. The name of each child will be used as a Popup Item.
+- \(Optional) Set the *PopupChild* as a *Separator* to create a separation Line instead
+- \(Optional) Set the *Label Override* to use a different Item Name than the Node Name, this is useful for using special characters not allowed in Godot's SceneTree.
+- \(Optional) Use the *Signal* of each *PopupChild* Node to get a specific event for each, instead of using the *IdPressed* Signal manually. 
+
+## Creating Submenus
+- Add a *PopupMenu* Node to the *MenuButtonPopulator* Node. The Name of the *PopupMenu* Node will be used as the Submenu Name.
+- Add *PopupChild* Nodes to the *PopupMenu* and repeat the steps outlined in **Adding Items**.
+
+
 # Todo
 - [ ] Add recursive menu building
+- [ ] Disabled Items
 - [ ] Add gdscipt version
 - [ ] verify all godot 4.x version compatibility
 - [ ] overall UX improvement
