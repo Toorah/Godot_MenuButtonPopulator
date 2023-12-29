@@ -1,6 +1,6 @@
 # MenuButtonPopulator
 
-*Made for Godot 4.2 .NET*
+*Made for Godot 4.2 .NET & GDScript*
 
 ![format-list-text-custom](https://github.com/Toorah/Godot_MenuButtonPopulator/assets/8051137/5c1369d0-ce52-48c8-931f-59a5b4117ba6)
 
@@ -58,6 +58,6 @@ OR
 # Todo
 - [ ] Add recursive menu building
 - [ ] Disabled Items
-- [ ] Add gdscipt version
+- [x] ~~Add gdscipt version~~
 - [ ] verify all godot 4.x version compatibility
 - [ ] overall UX improvement
