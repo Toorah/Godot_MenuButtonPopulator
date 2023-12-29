@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-[GlobalClass, Icon("res://addons/menubuttonpopulator/format-list-text.svg")]
+[GlobalClass, Icon("res://addons/menubuttonpopulator/icons/format-list-text.svg")]
 public partial class PopupChild : Node
 {
 	[Export]

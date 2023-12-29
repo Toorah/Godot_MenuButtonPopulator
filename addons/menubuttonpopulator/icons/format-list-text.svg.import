@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b44474m27cnpn"
-path="res://.godot/imported/format-list-text.svg-917fb242ce1a24ab34b0ac756e24251c.ctex"
+path="res://.godot/imported/format-list-text.svg-784f316619762207ecc0615e6350194e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/menubuttonpopulator/format-list-text.svg"
-dest_files=["res://.godot/imported/format-list-text.svg-917fb242ce1a24ab34b0ac756e24251c.ctex"]
+source_file="res://addons/menubuttonpopulator/icons/format-list-text.svg"
+dest_files=["res://.godot/imported/format-list-text.svg-784f316619762207ecc0615e6350194e.ctex"]
 
 [params]
 
