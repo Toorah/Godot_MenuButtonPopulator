@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://bybhcx0471w8t"]
+
+[ext_resource type="Script" path="res://addons/menubuttonpopulator/gdscript/menu_button_populator.gd" id="1_ifn72"]
+[ext_resource type="Script" path="res://addons/menubuttonpopulator/gdscript/popup_child.gd" id="2_ogs08"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Popup1" type="MenuButton" parent="."]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 31.0
+offset_right = 250.0
+offset_bottom = 94.0
+text = "Popup1"
+flat = false
+script = ExtResource("1_ifn72")
+
+[node name="Option A" type="Node" parent="Popup1"]
+script = ExtResource("2_ogs08")
+
+[node name="Separator" type="Node" parent="Popup1"]
+script = ExtResource("2_ogs08")
+is_separator = true
+
+[node name="Option B" type="Node" parent="Popup1"]
+script = ExtResource("2_ogs08")
+
+[node name="Option C" type="Node" parent="Popup1"]
+script = ExtResource("2_ogs08")
+
+[node name="Popup 2 with Sub" type="MenuButton" parent="."]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 31.0
+offset_right = 583.0
+offset_bottom = 94.0
+text = "Popup 2 with Submenu"
+flat = false
+script = ExtResource("1_ifn72")
+
+[node name="Option A2 with Custom Name" type="Node" parent="Popup 2 with Sub"]
+script = ExtResource("2_ogs08")
+label_override = "Custom Option"
+
+[node name="Separator" type="Node" parent="Popup 2 with Sub"]
+script = ExtResource("2_ogs08")
+is_separator = true
+
+[node name="Option B2" type="Node" parent="Popup 2 with Sub"]
+script = ExtResource("2_ogs08")
+
+[node name="Option C2" type="Node" parent="Popup 2 with Sub"]
+script = ExtResource("2_ogs08")
+
+[node name="Submenu" type="PopupMenu" parent="Popup 2 with Sub"]
+
+[node name="Suboption 1" type="Node" parent="Popup 2 with Sub/Submenu"]
+script = ExtResource("2_ogs08")
+
+[node name="Suboption 2" type="Node" parent="Popup 2 with Sub/Submenu"]
+script = ExtResource("2_ogs08")
+
+[node name="SubSeparator" type="Node" parent="Popup 2 with Sub/Submenu"]
+script = ExtResource("2_ogs08")
+is_separator = true
+
+[node name="Suboption 3" type="Node" parent="Popup 2 with Sub/Submenu"]
+script = ExtResource("2_ogs08")

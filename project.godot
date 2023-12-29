@@ -20,4 +20,4 @@ project/assembly_name="Menu Button Populator"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/menubuttonpopulator/plugin.cfg")
+enabled=PackedStringArray()
